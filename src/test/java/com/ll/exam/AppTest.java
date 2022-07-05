@@ -27,6 +27,12 @@ public class AppTest {
     }
 
 
+    @Test
+    public void 빼기() {
+        int rs = Calculator.run("10 - 10");
+
+        assertEquals(0, rs);
+    }
 
 }
 
